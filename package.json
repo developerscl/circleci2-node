@@ -1,0 +1,14 @@
+{
+  "name": "circleci-node",
+  "version": "1.0.0",
+  "description": "ci",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "hansfpc",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
