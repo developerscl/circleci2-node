@@ -4,11 +4,13 @@
   "description": "ci",
   "main": "sketch.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "codecov": "./node_modules/.bin/codecov"
   },
   "author": "hansfpc",
   "license": "MIT",
   "devDependencies": {
+    "codecov": "^3.1.0",
     "jest": "^23.6.0"
   },
   "jest": {
