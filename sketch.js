@@ -15,7 +15,7 @@ function divide(a, b) {
 }
 
 function sample() {
-  return 'string'
+  return 'sample string'
 }
 
-module.exports = { sum, prod, subtract, divide }
+module.exports = { sum, prod, subtract, divide, sample }
