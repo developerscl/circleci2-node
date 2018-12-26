@@ -6,8 +6,8 @@ function prod(a, b) {
   return a * b
 }
 
-function substract(a, b) {
+function subtract(a, b) {
   return a - b
 }
 
-module.exports = { sum, prod, substract }
+module.exports = { sum, prod, subtract }
