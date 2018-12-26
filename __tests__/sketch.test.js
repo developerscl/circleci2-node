@@ -1,4 +1,4 @@
-const { sum, prod, subtract } = require('../sketch')
+const { sum, prod, subtract, divide } = require('../sketch')
 
 describe('Sketch tests', () => {
   it('should adds 1+2 and return 3', () => {
@@ -10,4 +10,7 @@ describe('Sketch tests', () => {
   it('should subtact and return 35', () => {
     expect(subtract(70, 35)).toBe(35)
   })
+  //it('should divide and return 35', () => {
+    //expect(divide(70, 2)).toBe(35)
+  //})
 })
