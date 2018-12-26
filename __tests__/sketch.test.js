@@ -1,4 +1,6 @@
-const { sum, prod, subtract, divide } = require('../sketch')
+const { sum, prod, subtract, divide, sample } = require('../sketch')
+const { toBeType } = require('jest-tobetype')
+expect.extend({ toBeType })
 
 describe('Sketch tests', () => {
   it('should adds 1+2 and return 3', () => {
@@ -13,4 +15,13 @@ describe('Sketch tests', () => {
   it('should divide and return 35', () => {
     expect(divide(70, 2)).toBe(35)
   })
+  it('should be a string', () => {
+    const sampleString = sample()
+    expect(sampleString).toBeType('string')
+  })
+  it('should be SAMPLE STRING str', () => {
+    const sampleString = sample()
+    expect(sampleString).toBe('sample string')
+  })
+
 })
