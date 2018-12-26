@@ -14,4 +14,8 @@ function divide(a, b) {
   return a / b
 }
 
+function sample() {
+  return 'string'
+}
+
 module.exports = { sum, prod, subtract, divide }
